@@ -908,3 +908,107 @@
 	.features article .inner > :last-child {
 				margin-bottom: 0;
 	}
+	
+/* Header */
+
+	#header {
+		background: #3CC;
+		color: #d1f1e9;
+		height: 100%;
+		position: fixed;
+		text-align: center;
+		top: 0;
+		width: 23em;
+		right: 0;
+	}
+
+	#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
+			color: #ffffff;
+	}
+
+	#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
+				color: #ffffff;
+	}
+
+	#header header p {
+			color: #b6e9dc;
+	}
+
+	#header a {
+			color: #d1f1e9;
+	}
+
+	#header a:hover {
+				color: #ffffff !important;
+	}
+
+	#header > header {
+			padding: 3em;
+	}
+
+	#header > header .avatar {
+				display: block;
+				margin: 0 auto 2.25em auto;
+				width: 8em;
+	}
+
+	#header > header h1 {
+				font-size: 3em;
+				margin: 0;
+	}
+
+	#header > header p {
+				color: #d1f1e9;
+				font-style: italic;
+				margin: 1em 0 0 0;
+	}
+
+	#header > footer {
+			bottom: 0;
+			left: 0;
+			padding: 2em;
+			position: absolute;
+			width: 100%;
+	}
+
+	#header > footer .icons {
+				margin: 0;
+	}
+
+	#header > footer .icons li a {
+					color: #b6e9dc;
+	}
+
+	#header > nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+	}
+
+	#header > nav ul li {
+				border-top: solid 2px #0CC;
+				display: block;
+				padding: 0;
+	}
+
+	#header > nav ul li a {
+				-moz-transition: none;
+				-webkit-transition: none;
+				-o-transition: none;
+				-ms-transition: none;
+				transition: none;
+				border: 0;
+				color: #ffffff !important;
+				display: block;
+				padding: 0.85em 0;
+				text-decoration: none;
+	}
+
+	#header > nav ul li a.active {
+				background: #fff;
+				color: #0CC !important;
+	}
+
+	#header > nav ul li:first-child {
+				border-top: 0;
+	}
