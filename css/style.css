@@ -1012,3 +1012,35 @@
 	#header > nav ul li:first-child {
 				border-top: 0;
 	}
+	
+/* Wrapper */
+
+	#wrapper {
+		background: #fff;
+		padding-right: 23em;
+	}
+
+/* Main */
+
+	#main > section {
+		border-top: solid 6px #f4f4f4;
+	}
+
+	#main > section > .container {
+			padding: 6em 0 4em 0;
+	}
+
+	#main > section:first-child {
+			border-top: 0;
+	}
+
+
+/* One */
+
+	#one:before {
+		content: '';
+		display: block;
+		height: 15em;
+		width: 100%;
+	}
+	
