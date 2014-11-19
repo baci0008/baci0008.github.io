@@ -275,7 +275,26 @@ ul.fc-slides li {
 	margin: 5px;
 }
 
-
+@media screen and (max-width: 31.5em) {
+	.fc-slideshow {
+			width: 250px;
+			height: 250px;
+			margin-bottom: 3rem;
+	}
+		
+	.fc-slideshow img  {
+		width: 250px;
+		height: 250px;
+	}
+	
+	.fc-slideshow h3 {
+	
+		height: 25px;
+		margin-top: 70px;
+		font-size: 15px;
+		line-height: 20px;
+	}
+}
 
 
 /* Basic */
