@@ -1043,4 +1043,16 @@
 		height: 15em;
 		width: 100%;
 	}
-	
+
+
+/* Two */
+	#two:before {
+		background-image: url("http://placehold.it/900x300");
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		
+		display: block;
+		height: 17em;
+		width: 100%;
+	}
