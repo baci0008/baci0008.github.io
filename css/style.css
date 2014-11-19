@@ -2,16 +2,7 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
-@font-face {
-	font-family: 'entypo';
-	src:url('../fonts/entypo.eot');
-	src:url('../fonts/entypo.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/entypo.svg#entypo') format('svg'),
-		url('../fonts/entypo.woff') format('woff'),
-		url('../fonts/entypo.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
+
 
 .fc-slideshow {
 	position: relative;
@@ -138,7 +129,7 @@
 
 .icon-arrow-left:before, 
 .icon-arrow-right:before {
-	font-family: 'entypo';
+	font-family: FontAwesome;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -156,11 +147,11 @@
 }
 
 .icon-arrow-left:before {
-	content: "\e002";
+	content: "\f104";
 }
 
 .icon-arrow-right:before {
-	content: "\e003";
+	content: "\f105";
 }
 
 .csstransforms3d .fc-slideshow nav > div span:hover ~ i,
@@ -1852,7 +1843,7 @@ ul.fc-slides li {
 	
 	.icon:before,
 	.icon:after {
-		font-family: 'entypo';
+		font-family: FontAwesome;
 		speak: none;
 		font-style: normal;
 		font-weight: normal;
@@ -1864,11 +1855,11 @@ ul.fc-slides li {
 	}
 	
 	span.nav-prev:before {
-		content: "\e002";
+		content: "\f104";
 	}
 	
 	span.nav-next:before  {
-		content: "\e003";
+		content: "\f105";
 	}
 	
 	span.nav-close:before {
@@ -1903,12 +1894,12 @@ ul.fc-slides li {
 	
 	.info-keys:before {
 		left: 10px;
-		content: "\e002";
+		content: "\f104";
 	}
 	
 	.info-keys:after {
 		right: 10px;
-		content: "\e003";
+		content: "\f105";
 	}
 	
 	@media screen and (max-width: 60em) {
