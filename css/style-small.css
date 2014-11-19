@@ -98,6 +98,10 @@
 	#one:before {
 		height: 7em;
 	}
+	
+	#two:before {
+		height: 10em;
+	}
 
 /* Footer */
 

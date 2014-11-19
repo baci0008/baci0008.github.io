@@ -1038,6 +1038,9 @@
 /* One */
 
 	#one:before {
+		background-image: url("http://placehold.it/900x200");
+		background-repeat: no-repeat;
+		background-size: cover;
 		content: '';
 		display: block;
 		height: 15em;
@@ -1046,14 +1049,15 @@
 
 
 /* Two */
+ 
 	#two:before {
-		background-image: url("http://placehold.it/900x300");
+		
+		background-image: url("http://placehold.it/900x500");
 		background-repeat: no-repeat;
 		background-size: cover;
 		content: '';
-		
 		display: block;
-		height: 17em;
+		height: 27em;
 		width: 100%;
 	}
 

@@ -36,7 +36,7 @@
 		width: 100%;
 	}
 
-		#header > footer {
+	#header > footer {
 			bottom: auto;
 			left: auto;
 			margin: 1em 0 0 0;
@@ -56,17 +56,22 @@
 	#one:before {
 		height: 10em;
 	}
+	
+	#two:before {
+		height: 23em;
+	}
 
 /* Layers */
 
 	#titleBar {
-		background: #222;
+		background: #999;
 		color: #fff;
 		min-width: 320px;
 	}
 
-		#titleBar .title {
+	#titleBar .title {
 			color: #fff;
+			text-transform: uppercase;
 			display: block;
 			font-weight: 700;
 			height: 44px;
@@ -95,7 +100,7 @@
 			}
 
 			#titleBar .toggle:before {
-				background: #4acaa8;
+				background: #0CC;
 				color: #ffffff;
 				content: '\f0c9';
 				display: block;
@@ -110,6 +115,6 @@
 			}
 
 	#sidePanel {
-		background: #4acaa8;
+		background: #0CC;
 		color: #d1f1e9;
 	}
