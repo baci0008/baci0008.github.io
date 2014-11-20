@@ -946,6 +946,25 @@ ul.fc-slides li {
 	dl {
 		margin: 0 0 2.25em 0;
 	}
+	
+	.lef {
+		margin-left: 0.5em;
+	}
+	
+	@media screen and (max-width: 31.5em) {
+		.lef {
+		margin-left: 0.3em;
+	}
+	}
+	
+	@media screen and (max-width: 90em) {
+			.lef {
+		margin-left: 1em;
+	}
+		
+		
+	}
+	
 
 /* Table */
 
