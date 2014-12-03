@@ -1908,7 +1908,7 @@ ul.fc-slides li {
 		z-index: 1000;
 		color: #0CC;
 		text-align: center;
-		padding: 3%;
+		padding: 10%;
 		cursor: pointer;
 		font-size: 2.2em;
 	}
@@ -1921,7 +1921,7 @@ ul.fc-slides li {
 	}
 	
 	.slideshow nav span.nav-next {
-		right: 0;
+		right: 9%;
 	}
 	
 	.slideshow nav span.nav-close {
@@ -1992,6 +1992,27 @@ ul.fc-slides li {
 		content: "\f105";
 	}
 	
+	@media screen and (max-width: 64em) {
+		.info-keys {
+			display: none;
+		}
+		
+		.slideshow nav span {
+			font-size: 1.8em;
+			margin-top: 5%;	
+		}
+		
+		.slideshow nav span.nav-next {
+			right: 8%;
+		}
+		
+		.slideshow nav span.nav-prev {
+			right: 71%;
+		}
+	}
+	
+	
+	
 	@media screen and (max-width: 60em) {
 
 		.grid3 li {
@@ -2016,23 +2037,42 @@ ul.fc-slides li {
 			margin: 0 auto;
 			max-width: 100%;
 		}
-		
-		.slideshow nav span {
-			font-size: 1.5em;
-			margin-top: 20%;
-			margin-right: 21%;
-			
-		}
 	
-		.info-keys {
-			display: none;
+		.slideshow nav span {
+			margin-top: 1%;	
 		}
+		
+		.slideshow nav span.nav-next {
+			right: 2%;
+		}
+		
+		.slideshow nav span.nav-prev {
+			right: 76%;
+		}
+		
+		.slideshow {
+			background: #FFF;
+		}
+		
 	
 	}
 	
 	@media screen and (max-width: 35em) {
 		.grid3 li {
 			width: 50%;
+		}
+			
+		.slideshow nav span.nav-next {
+			left: 55%;
+		}
+		
+		.slideshow nav span.nav-prev {
+			right: 81%;
+		}
+		
+		.button.small {
+			width: 30%;	
+			left: 5%;
 		}
 	}
 	
