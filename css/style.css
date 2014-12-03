@@ -388,6 +388,7 @@ ul.fc-slides li {
 		font-size: 0.8em;
 		position: relative;
 		top: -0.5em;
+		color: #0CC;
 	}
 
 	hr {
@@ -792,7 +793,7 @@ ul.fc-slides li {
 	}
 
 	ol li {
-			padding-left: 0.25em;
+			padding-left: 0.25em;	
 	}
 
 	ul {
@@ -1373,7 +1374,7 @@ ul.fc-slides li {
 	}
 	
 	
-/* Tooltip */
+/* Tooltip - About */
 	.tooltip {
 		display: inline;
 		position: relative;
@@ -1415,6 +1416,37 @@ ul.fc-slides li {
 		pointer-events: auto;
 		-webkit-transform: scale3d(1,1,1);
 		transform: scale3d(1,1,1);
+	}
+	
+	sup {
+		display: none;
+	}
+	
+	.footnotes {
+		display: none;
+	}
+	
+	
+	@media screen and (max-width: 31.5em) {
+		.tooltip-content {
+			display: none;
+		}
+		
+		.fa {
+			display: none;
+		}
+		
+		sup {
+			display: inline;
+		}	
+		
+		.footnotes {
+			display: block;
+			font-size: 12px;
+			line-height: 18px;
+			color: #0CC;
+		}
+
 	}
 		
 	
