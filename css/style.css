@@ -2064,10 +2064,12 @@ ul.fc-slides li {
 			
 		.slideshow nav span.nav-next {
 			left: 55%;
+			margin-top: 20%;
 		}
 		
 		.slideshow nav span.nav-prev {
 			right: 81%;
+			margin-top: 20%;
 		}
 		
 		.button.small {
