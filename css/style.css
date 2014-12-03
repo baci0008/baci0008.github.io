@@ -1445,6 +1445,8 @@ ul.fc-slides li {
 			font-size: 12px;
 			line-height: 18px;
 			color: #0CC;
+			margin-top: 4rem;
+			margin-bottom: 10rem;
 		}
 
 	}
@@ -1716,15 +1718,35 @@ ul.fc-slides li {
 		right: 20px;
 	}
 	
+	.features {
+		display: none;
+	}
 	
 	@media screen and (max-width: 31.5em) {
-		.grid2 {
-			padding: 10px 10px 100px 10px;
+		
+		.cs-style-4 figcaption {
+			display: none;
+			transition: none;		
 		}
-		.grid2 li {
-			width: 100%;
-			min-width: 300px;
+	
+		.no-touch .cs-style-4 figure:hover img,
+		.cs-style-4 figure.cs-hover img {
+			transform: none;
 		}
+		.cs-style-4 figure img {
+			display: none;
+		}
+		
+		.features {
+			display: block;
+			margin-bottom: 7rem;
+		}
+		
+		.cs-style-4 li {
+			display: none;
+		}
+	
+		
 	}	
 	
 /* Portfolio */
