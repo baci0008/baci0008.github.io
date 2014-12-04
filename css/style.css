@@ -864,7 +864,7 @@ ul.fc-slides li {
 
 	ul.icons li {
 				display: inline-block;
-				padding: 0 1em 0 0;
+				padding: 0 7% 0 0;
 	}
 
 	ul.icons li:last-child {
@@ -949,20 +949,8 @@ ul.fc-slides li {
 	.lef {
 		margin-left: 0.5em;
 	}
+
 	
-	@media screen and (max-width: 31.5em) {
-	.lef {
-		margin-left: 0.3em;
-	}
-	}
-	
-	@media screen and (max-width: 90em) {
-	.lef {
-		margin-left: 1em;
-	}
-		
-		
-	}
 	
 
 /* Table */
@@ -2306,6 +2294,10 @@ ul.fc-slides li {
 
 	#footer .copyright li a {
 		color: inherit;
+	}
+	
+	
+	@media screen and (max-width: 31.5em) {
 	}
 				
 	
