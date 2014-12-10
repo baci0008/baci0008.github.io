@@ -1569,7 +1569,7 @@ ul.fc-slides li {
 	}
 	
 	.tool1-text {
-		border-bottom: 10px solid #fcab92;
+		border-bottom: 10px solid #73caa8;
 		overflow: hidden;
 		-webkit-transform: scale3d(0,1,1);
 		-moz-transform: scale3d(0,1,1);
@@ -1599,7 +1599,7 @@ ul.fc-slides li {
 	}
 	
 	.tool1-inner {
-		background: #9cd7be;
+		background: #CCC;
 		padding: 40px;
 		-webkit-transform: translate3d(0,100%,0);
 		-moz-transform: translate3d(0,100%,0);
@@ -1640,7 +1640,7 @@ ul.fc-slides li {
 		position: absolute;
 		pointer-events: none;
 		border-color: transparent;
-		border-top-color: #fcab92;
+		border-top-color: #73caa8;
 		border-width: 10px;
 		margin-left: -10px;
 	}
@@ -1863,7 +1863,7 @@ ul.fc-slides li {
 	}
 	
 	.grid3 figcaption {
-		background: #e4e4e4;
+		background: #d0dad6;
 		padding: 25px;
 	}
 	
@@ -2300,15 +2300,15 @@ ul.fc-slides li {
 	}
 	
 	.ch-img-1 { 
-		background-image: url(http://placehold.it/220x220);
+		background-image: url(../images/salt.jpg);
 	}
 	
 	.ch-img-2 { 
-		background-image: url(http://placehold.it/220x220);
+		background-image: url(../images/cup.jpg);
 	}
 	
 	.ch-img-3 { 
-		background-image: url(http://placehold.it/220x220);
+		background-image: url(../images/lost.jpg);
 	}
 	
 	.ch-info h3 {
