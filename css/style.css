@@ -480,6 +480,10 @@ ul.fc-slides li {
 		text-align: right;
 	}
 
+	.color {
+		color: #0CC;
+	}
+
 /* Section/Article */
 
 	section.special, article.special {
