@@ -1599,7 +1599,7 @@ ul.fc-slides li {
 	}
 	
 	.tool1-inner {
-		background: #CCC;
+		background: #f4f4f4;
 		padding: 40px;
 		-webkit-transform: translate3d(0,100%,0);
 		-moz-transform: translate3d(0,100%,0);
@@ -1687,8 +1687,8 @@ ul.fc-slides li {
 		top: 0;
 		left: 0;
 		padding: 10px;
-		background: #d0dad6;
-		color: #fff;
+		background: #f4f4f4;
+		color: #c0c0c0;
 	}
 	
 	.grid2 figcaption h3 {
@@ -1863,7 +1863,7 @@ ul.fc-slides li {
 	}
 	
 	.grid3 figcaption {
-		background: #d0dad6;
+		background: #f4f4f4;
 		padding: 25px;
 	}
 	
