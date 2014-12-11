@@ -14,12 +14,18 @@ html {
   background: #ccc;
   font: bold 14px/20px;
   font-family: FontAwesome;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.15); }
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.15);
+  background-image: url(../images/pattern.jpg);
+  background-position: center center; 
+  }
 
 .error-page-wrap {
   width: 310px;
   height: 310px;
-  margin: 155px auto; }
+  margin: 155px auto; 
+ 
+   }
+   
   .error-page-wrap:before {
     box-shadow: 0 0 200px 150px #fff;
     width: 310px;
@@ -109,6 +115,7 @@ html {
   .error-page h2 {
     margin: 20px 0 30px 0;
     font-size: 23px; 
+	color: #666;
 	}
 	
     .error-page h2:before {
@@ -140,6 +147,6 @@ html {
   }
   
   .error-back:hover {
-    color: #0CC;
-    text-shadow: 0 0 3px black; 
+    color: #0CC; 
+	font-size: 25px;
 	}
