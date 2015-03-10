@@ -1,8 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
@@ -13,10 +11,8 @@
 html {
   background: #ccc;
   font: bold 14px/20px;
-  font-family: FontAwesome;
+  font-family: 'Lato', sans-serif;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.15);
-  background-image: url(../images/pattern.jpg);
-  background-position: center center; 
   }
 
 .error-page-wrap {
@@ -43,14 +39,8 @@ html {
   top: -310px;
   position: relative;
   text-align: center;
-  background: #0CC;
-  background: -moz-linear-gradient(top, #0CC 0%, rgb ( 246, 65, 98, 1) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0CC), color-stop(100%, #f2c6a5));
-  background: -webkit-linear-gradient(top, #0CC 0%, rgb ( 246, 65, 98, 1) 100%);
-  background: -o-linear-gradient(top, #0CC 0%, rgb (246, 65, 98, 1) 100%);
-  background: -ms-linear-gradient(top, #0CC 0%, rgb (246, 65, 98, 1) 100%);
-  background: linear-gradient(to bottom, #0CC 0%, rgb (246, 65, 98, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$firstColor', endColorstr='$secondColor',GradientType=0 ); 
+  background: #000;
+
   }
   
   .error-page:before {
@@ -86,8 +76,8 @@ html {
 	
   .error-page h1 {
     color: rgba(255, 255, 255, 0.94);
-    font-size: 100px;
-    margin: 2px auto 0 auto;
+    font-size: 80px;
+    margin: 0px auto 0 auto;
     text-shadow: 0px 0 7px rgba(0, 0, 0, 0.5); 
 	}
 	
@@ -96,7 +86,6 @@ html {
       height: 1px;
       position: relative;
       margin: 0 auto;
-      top: 70px;
       content: '';
       display: block;
 	  }
@@ -108,22 +97,20 @@ html {
       display: block;
       opacity: 0.2;
       margin: 0 auto;
-      top: 50px;
       position: relative;
 	  }
 	  
   .error-page h2 {
-    margin: 20px 0 30px 0;
-    font-size: 23px; 
-	color: #666;
+    margin: 10px 0 10px 0;
+    font-size: 35px; 
+	color: #00aa9f;
+	font-family: 'Amatic SC', cursive;
 	}
 	
     .error-page h2:before {
       width: 130px;
-      height: 1px;
       position: relative;
       margin: 0 auto;
-      top: 31px;
       content: '';
       display: block;
 	  }
@@ -135,18 +122,17 @@ html {
       display: block;
       opacity: 0.2;
       margin: 0 auto;
-      top: 11px;
       position: relative;
 	   }
 
 .error-back {
   text-decoration: none;
-  color: #FFF;
-  font-size: 17px;
-  text-transform: uppercase; 
+  color: #fff;
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
   }
   
   .error-back:hover {
-    color: #0CC; 
-	font-size: 25px;
+    color: #00aa9f;
+	font-size: 30px;
 	}

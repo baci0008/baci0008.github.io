@@ -17,6 +17,7 @@ GOOGLE GRID GALLERY © MARY LOU: http://tympanus.net/codrops/2014/03/21/google-g
 FLIPPING CIRCLE SLIDESHOW © MARY LOU: http://tympanus.net/codrops/2013/01/28/flipping-circle-slideshow/
 CIRCLE HOVER EFFECTS WITH CSS TRANSITIONS © MARY LOU:http://tympanus.net/codrops/2012/08/08/circle-hover-effects-with-css-transitions/
 CAPTION HOVER EFFECTS © MARY LOU:http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
+CSS Carousel © kOHEI "http://digital.bnint.com/filelib/s9/photos/white_wood_4500x3000_lo_res.jpg
 
 HTML5UP
 http://html5up.net/
